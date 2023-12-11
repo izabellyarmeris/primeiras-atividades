@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> FORMULARIO CADASTRAMENTO </title>
+
+
+
+</head>
+
+<body>
+    <header>
+        <h1> Preencher Formulário De Cadastramento </h1>
+
+        </form>
+        </section>
+        <style>
+            h1 {
+                background-color: rgb(192, 95, 160);
+            }
+
+            form {
+                background-color: rgb(59, 96, 183);
+                border: 1px solid rgb(111, 68, 68);
+            }
+        </style>
+
+
+
+    </header>
+    <section>
+        <form method="get" action="./atividade.html" target="_blank" novalidate enctype="multipart/form-data">
+
+            <label for="Nome"></label>Nome </label> <input type="Seu Nome" placeholder="seu nome" id="Nome"
+                autocomplete="on" autofocus size="100px"><br><br>
+            <label for="Email"> Email</label> <input type="Seu Email" placeholder=" seu email" id="Email"
+                size="100px"><br><br>
+            <label for="idade"> idade </label> <input type="number" min="18" max="100" placeholder="Sua idade"
+                id="idade"><br><br>
+            <label for="senha"> Senha </label> <input type="password" placeholder="senha" id="senha"
+                pattern="[A-Za-z]{10}" size="100px" min="5" maxlength="10" required><br><br>
+            <label for="data-de-nascimento "> Data de Nascimento </label> <input type="date" id="data-de-nascimento"
+                size="100px"><br><br>
+            <input type="text" placeholder="seu endereço" readonly><br><br>
+            <input type="submit">
+</body>
+
+</html>

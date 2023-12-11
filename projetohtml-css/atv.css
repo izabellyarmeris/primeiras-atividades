@@ -1,0 +1,85 @@
+body {
+
+    background-image: url(./midia/jinx2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    background-color: aliceblue;
+    color: midnightblue;
+}
+
+div {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    gap: 200px;
+    margin-right: 20px;
+
+}
+
+li {
+    font-size: 30px;
+    list-style: none;
+
+
+    font-family: 'Roboto', sans-serif;
+    transition: 300ms;
+
+
+
+}
+
+div img {
+    width: 130px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: 400ms;
+}
+
+a:hover {
+    color: #E50914;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+section img {
+    width: 400px;
+    margin-top: 8rem;
+}
+
+p {
+    font-size: 23px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 3rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    align-items: center;
+    padding: 1rem;
+}
+
+main>img {
+    height: 669px;
+}
+li:hover{
+    transform: scale(1.2);
+}

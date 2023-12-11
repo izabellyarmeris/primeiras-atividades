@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Bel viagens | Cadastro </title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="cadastro.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <img src="./midia/airport-animate.svg" alt="airport-animate">
+        <form action="viagens.html" method="get">
+            
+        <h1> Cadastre-se!</h1>
+
+        <div>
+            <label for="name">Seu nome:</label>
+            <input type="text" placeholder=" Seu nome" id="name" autofocus>
+        </div>
+        <div>
+            <label for="sobrenome">Seu Sobrenome:</label>
+            <input type="text" placeholder="Seu sobrenome" id="sobrenome">
+        </div>
+        <div>
+            <label for="data-de-nascimento"> Data de Nascimento:</label >
+            <input type="date" name="date" id="data-de-nascimento">
+        </div>
+        <div>
+            <label for="email"> Email:</label>
+            <input type="email" id="email" placeholder="Seu email" required autofocus>
+        </div>
+        <div>
+            <label for="confirmacao-email"> Confirme seu Email: </label>
+            <input type="email" placeholder="Confirme seu email" id="confirmacao-email">
+        </div>
+        <div>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" placeholder="Sua senha" maxlength="12"
+                title="sua senha deve ter 12 caracteres" required>
+        </div>
+        <div>
+            <label for="confirmar-senha">Confirme sua senha:</label>
+            <input type="password" id="confirmar-senha" placeholder="Confirme sua senha" maxlength="12"
+            title="sua senha precisa ser igual ao formulário anterior" required>
+        </div>
+        <input type="submit" value="entrar" class="enviar">
+    </form>
+    </main>
+</body>
+
+</html>
